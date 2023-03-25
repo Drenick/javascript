@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <h1>Estudos DOM</h1>
+    <p>Exemplo de texto bem aqui.</p>
+    <p>Mais um exemplo de texto com uma frase em <strong>Negrito</strong> bem aqui. </p>
+    <div id="msg">Clique aqui</div>
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[1]
+        window.alert('Esta escrito desse jeito: ' + p1.innerHTML)
+        var d = window.document.querySelector('div#msg')
+        d.style.background = 'black'
+    
+    </script>
+</body>
+</html>
