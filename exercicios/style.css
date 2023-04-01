@@ -6,6 +6,9 @@ body {
     background-color: lightcoral;
 
 }
+h1 {
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+}
 header {
     color: white;
     text-align: center;
@@ -17,6 +20,12 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+}
+div {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 9px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
 }
 footer {
     color: white;
