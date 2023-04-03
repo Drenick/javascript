@@ -4,6 +4,6 @@ function gerar() {
     if (num.value == 0) {
     res.innerHTML = 'Impossivel contar'
     } else {
-        num * 
+        num
     }
 }
