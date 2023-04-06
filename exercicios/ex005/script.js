@@ -1,6 +1,7 @@
 function adicionar(n) {
     var val = document.getElementById('xnum')
     var tab = document.getElementById('xtab')
+    var res = document.getElementById('res')
     if (val.value.length == 0) {
         window.alert('Digite algum valor abaixo')
     } else  {
