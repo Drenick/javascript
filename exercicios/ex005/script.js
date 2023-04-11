@@ -39,8 +39,8 @@ function finalizar() {
         window.alert('Adicione valores antes de finalizar.')
     } else {
         let total = valores.length
-        valores.sort()
-        maior = valores.pop()
+        valores.sort(function(a, b){return a - b})
+        maior = valores.slice(-1)
         menor = valores[0]
         let soma = 0
         let media = 0
