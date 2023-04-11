@@ -39,16 +39,18 @@ function finalizar() {
         window.alert('Adicione valores antes de finalizar.')
     } else {
         let total = valores.length
-        let maior = valores[0]
-        let menor = valores[0]
+        valores.sort()
+        maior = valores.pop()
+        menor = valores[0]
         let soma = 0
         let media = 0
         for(let pos in valores) {
             soma += valores[pos]
-            if(valores[pos] > maior) 
+        /*    if(valores[pos] > maior) 
                 maior = valores[pos]
             if(valores[pos] < menor)
                 menor = valores[pos]
+        */
         }
         media = soma / total
         res.innerHTML = ''
