@@ -10,7 +10,7 @@ function calcular(fat) {
         res.innerHTML = '[ERRO] Coloque o número acima'
     } else {
         var fat = Number(fatorial.value)
-        res.innerHTML = `O fatorial do seu número é ${calcular(fat)}`
+        res.innerHTML = `O fatorial do seu número é ${calcular(fator)}`
     }
     
 }
